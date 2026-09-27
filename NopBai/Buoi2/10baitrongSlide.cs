@@ -6,7 +6,7 @@ namespace CSLT_PNBTRAN.Buoi2
 {
     internal class _10baitrongSlide
     {
-        public static void Main(string[] args)
+        static void Bai1()
         {
 
             //        Write programs that:
@@ -22,6 +22,9 @@ namespace CSLT_PNBTRAN.Buoi2
             Console.WriteLine("Tong cua hai so la: " + sum);
             Console.WriteLine("Nhan enter de tiep tuc");
             Console.ReadLine();
+        }
+        static void Bai2()
+        {
             //2. to Swap Values of Two Variables.
             Console.WriteLine("Bai 2: Swap Values of Two Variables");
             float c, d, doi;
@@ -37,6 +40,9 @@ namespace CSLT_PNBTRAN.Buoi2
             Console.WriteLine("So thu hai: " + d);
             Console.WriteLine("Nhan enter de tiep tuc");
             Console.ReadLine();
+        }
+        static void Bai3()
+        {
             //3. to Multiply two Floating Point Numbers
             Console.WriteLine("Bai 3: Multiply two Floating Point Numbers");
             float e, f, tich;
@@ -48,6 +54,9 @@ namespace CSLT_PNBTRAN.Buoi2
             Console.WriteLine("Tich cua hai so la: " + tich);
             Console.WriteLine("Nhan enter de tiep tuc");
             Console.ReadLine();
+        }
+        static void Bai4()
+        {
             //4. to convert feet to meter
             Console.WriteLine("Bai 4: Convert feet to meter");
             float feet, meter;
@@ -58,6 +67,9 @@ namespace CSLT_PNBTRAN.Buoi2
             Console.WriteLine("So meter tuong ung la: " + meter);
             Console.WriteLine("Nhan enter de tiep tuc");
             Console.ReadLine();
+        }
+        static void Bai5()
+        {
             //5. to convert Celsius to Fahrenheit and vice versa
             Console.WriteLine("Bai 5: Convert Celsius to Fahrenheit and vice versa");
             float celsius, fahrenheit;
@@ -84,6 +96,9 @@ namespace CSLT_PNBTRAN.Buoi2
             { Console.WriteLine("Lua chon khong hop le! Xin moi nhap lai"); }
             Console.WriteLine("Nhan enter de tiep tuc");
             Console.ReadLine();
+        }
+        static void Bai6()
+        {
             //6. to find the Size of data type
             Console.WriteLine("Bai 6: Find the size of data type");
             Console.Write("Nhap ten kieu du lieu (int, float, double, char, bool, long): ");
@@ -118,6 +133,9 @@ namespace CSLT_PNBTRAN.Buoi2
             }
             Console.WriteLine("Nhan enter de tiep tuc");
             Console.ReadLine();
+        }
+        static void Bai7()
+        {
             //7. to Print ASCII Value (tip: read character, print number of this char)
             Console.WriteLine("Bai 7: Print ASCII Value");
             Console.WriteLine("Xin moi nhap mot ky tu: ");
@@ -125,6 +143,9 @@ namespace CSLT_PNBTRAN.Buoi2
             Console.WriteLine($"ASCII value of '{kyTu}' is: {Convert.ToInt32(kyTu)}");
             Console.WriteLine("Nhan enter de tiep tuc");
             Console.ReadLine();
+        }
+        static void Bai8()
+        {
             //8. to Calculate Area of Circle 
             Console.WriteLine("Bai 8: Calculate Area of Circle");
             Console.WriteLine("Xin moi nhap ban kinh hinh tron: ");
@@ -133,6 +154,9 @@ namespace CSLT_PNBTRAN.Buoi2
             Console.WriteLine($"Dien tich hinh tron co ban kinh {r} la: {area}");
             Console.WriteLine("Nhan enter de tiep tuc");
             Console.ReadLine();
+        }
+        static void Bai9()
+        {
             //9. to Calculate Area of Square
             Console.WriteLine("Bai 9: Calculate Area of Square");
             Console.WriteLine("Xin moi nhap do dai canh hinh vuong: ");
@@ -142,6 +166,9 @@ namespace CSLT_PNBTRAN.Buoi2
             Console.WriteLine($"Dien tich hinh vuong co canh {canh} la: {dienTich}");
             Console.WriteLine("Nhan enter de tiep tuc");
             Console.ReadLine();
+        }
+        static void Bai10()
+        {
             //10. to convert days to years, weeks and days
             Console.WriteLine("Bai 10: Convert days to years, weeks and days");
             Console.WriteLine("Xin moi nhap so ngay: ");
@@ -157,5 +184,19 @@ namespace CSLT_PNBTRAN.Buoi2
             Console.WriteLine("Nhan enter de ket thuc chuong trinh");
             Console.ReadLine();
         }
+        static void Main(string[] args)
+        {
+            Bai1();
+            Bai2();
+            Bai3();
+            Bai4();
+            Bai5();
+            Bai6();
+            Bai7();
+            Bai8();
+            Bai9();
+            Bai10();
+        }
+
     }
 }
